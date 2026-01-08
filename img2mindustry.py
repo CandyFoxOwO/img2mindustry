@@ -29,7 +29,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.file_path = "" # image
         self.preset = "small-inner"
         self.downscale = 1
-        self.DisplayNameStr = "Display1"
+        self.DisplayNameStr = "display1"
         self.WaitFloat = "0.1"
         self.WaitEveryInt = "10"
         
@@ -77,9 +77,6 @@ class MainWindow(QtWidgets.QMainWindow):
 
 8. Waitevery
 - How many delays there will be every N lines
-
-IMPORTANT!
-if after converting several files, Run the prog_01.mlog first in processor and wait for the initial draw render, then run the others.
 
 """
         )
